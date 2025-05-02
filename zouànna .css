@@ -1,0 +1,39 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+background: color #4CAF50 ;
+color: white;
+text-align: center;
+padding: 2rem 0;
+}
+.projet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+.carte-projet{
+    background: #f9f9f9;
+    padding:2rem ;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
+    max-width: 500px;
+    text-align: center;
+}
+.carte-projet img{
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+}
+footer {
+    background-color: #333;
+    color:white;
+    text-align:center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
